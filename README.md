@@ -36,7 +36,7 @@ _List features. For example:_
 1. [Prerequisites](#prerequisites)
 2. [Setup](#setup)
 3. [Tools](#tools)
-4. [File structure](#File-Structure)
+4. [File structure](#file-structure)
 5. [Testing](#testing)
    - [Unit tests](#unit-tests)
    - [Integration tests](#integration-tests)
@@ -45,29 +45,6 @@ _List features. For example:_
 8. [Extras](#extras)
    - [Metrics](#metrics)
    - [Health checks](#health-checks)
-
-
-## **File Structure**
-
-Here’s an overview of the major files and directories in this project:
-
-```bash
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com/redteclab/orderservice  # Main application code
-│   │   ├── resources
-│   │       └── application.yml            # Service configuration
-│   ├── test
-│       ├── java
-│       │   └── com/redteclab/orderservice  # Unit and integration tests
-│       └── resources
-├── Dockerfile                              # Docker container configuration
-├── docker-compose.yml                      # Docker Compose for running multi-container environments
-├── README.md                               # Project documentation
-├── build.gradle                            # Gradle build script
-└── .circleci                               # CircleCI configuration files for CI/CD
-```
 
 
 ## **Prerequisites**
@@ -81,7 +58,6 @@ Before you begin, ensure you have the following installed:
   - `SERVICE_PORT`: The port where the service will run
   
 _You can refer to the `.env.example` file for more details._
-
 
 
 ## **Setup**
@@ -110,7 +86,29 @@ To set up and run the microservice locally, follow these steps:
 - Docker: Used for containerization and running the service in isolated environments.
 - CircleCI: CI/CD tool for automating testing and deployments.
 - SonarCloud: For code quality checks, including bugs, vulnerabilities, and code smells.
-- 
+
+
+## **File Structure**
+
+Here’s an overview of the major files and directories in this project:
+
+```bash
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com/redteclab/orderservice  # Main application code
+│   │   ├── resources
+│   │       └── application.yml            # Service configuration
+│   ├── test
+│       ├── java
+│       │   └── com/redteclab/orderservice  # Unit and integration tests
+│       └── resources
+├── Dockerfile                              # Docker container configuration
+├── docker-compose.yml                      # Docker Compose for running multi-container environments
+├── README.md                               # Project documentation
+├── build.gradle                            # Gradle build script
+└── .circleci                               # CircleCI configuration files for CI/CD
+```
 
 
 ## **Testing**
