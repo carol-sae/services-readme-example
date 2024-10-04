@@ -1,7 +1,7 @@
 # **Project Title**
 
 
-_Include CircleCI status and SonarCloud badges_
+_Include CircleCI status and SonarCloud badges. For example:_
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/RedTecLab/order-service/tree/master.svg?style=svg&circle-token=395596542bf40c435c3b3145f42017ceed5f3466)](https://dl.circleci.com/status-badge/redirect/gh/RedTecLab/order-service/tree/master)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=com.redteclab%3Aorder-service&metric=vulnerabilities&token=8f4ad9c7557e974f651590ee5d681e96768172ca)](https://sonarcloud.io/summary/new_code?id=com.redteclab%3Aorder-service)
