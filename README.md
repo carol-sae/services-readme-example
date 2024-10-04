@@ -1,4 +1,4 @@
-# **Project Title**
+# **Service name**
 
 
 _Include CircleCI status and SonarCloud badges. For example:_
