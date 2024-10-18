@@ -43,7 +43,7 @@ The Order Service acts as a central service to store and process all order relat
 
 <img src="/docs/diagram_example.jpg" alt="diagram" title="diagram example"/>
 
-The following diagram provides a high-level view of the architecture of the Order Service integration. Order service communicate with numerous external systems. More details can be found at this [wiki link](https://wiki.shop-apotheke.com/display/RTLDEV/1.+Order+Service+Integration).
+The following diagram provides a high-level view of the architecture of the Order Service integration. Order Service communicate with numerous external systems. More details can be found at this [wiki link](https://wiki.shop-apotheke.com/display/RTLDEV/1.+Order+Service+Integration).
 
 ## **Prerequisites**
 
