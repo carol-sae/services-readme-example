@@ -11,8 +11,7 @@ _Include CircleCI status and SonarCloud badges for health check. For example:_
 
 _Include Tech Stack badges. For example:_
 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/Rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)![RabbitMQ](https://img.shields.io/badge/Rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![CircleCI](https://img.shields.io/badge/circle%20ci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white)
 ![Dependabot](https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=white)![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white)
 
@@ -32,6 +31,7 @@ The Order Service acts as a central service to store and process all order relat
 4. [Testing](#testing)
    - [Unit tests](#unit-tests)
    - [Integration tests](#integration-tests)
+   - [Frontend tests](#front-end-tests)
 5. [Deployment](#deployment)
 6. [Debugging](#debugging)
 7. [Extras](#extras)
@@ -108,6 +108,12 @@ make prepare-integration-test
 ```
 mvn -P integration-test test
 ```
+
+### Front-end Tests
+
+_Include a link to the Front-end tests if applicable. For example:_
+
+[https://github.com/RedTecLab/frontend-tests/tree/master/tests/transactionArea/Lambda](https://github.com/RedTecLab/frontend-tests/tree/master/tests/transactionArea/Lambda)
 
 ## **Deployment**
 
